@@ -49,3 +49,7 @@ main {
     background-color: yellow;
     border-bottom-left-radius: 100%;
 }
+
+.selected {
+    opacity: 0.8;
+}
