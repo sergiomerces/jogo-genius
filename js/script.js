@@ -60,9 +60,8 @@ let click = (color) => {
 
     setTimeout(() => {
         elementColor(color);
-    })
-
-    checkOrder();
+        checkOrder();
+    }, 250);
 }
 
 //função que retorna a cor
@@ -96,3 +95,8 @@ let playGame = () => {
     score = 0;
     nextLevel();
 }
+
+green.addEventListener('click', click(0));
+red.addEventListener('click', click(1));
+yellow.addEventListener('click', click(2));
+blue.addEventListener('click', click(3));
